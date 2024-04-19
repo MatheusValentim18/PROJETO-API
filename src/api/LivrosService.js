@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://backend-wa45maw6l-matheus-valentims-projects.vercel.app";
 
 export const LivrosService = {
   getLivros: () => axios.get(`${BASE_URL}/livros`),
